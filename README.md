@@ -9,7 +9,7 @@
 ---
 
 <p align="center">
-  <a href="https://squidfunk.github.io/mkdocs-material/">
+  <a href="https://yuumixcode.github.io/odintoolkitsdocs/">
     <img src="docs/assets/logo-odintoolkits-color-noshadow.svg" width="320" alt="Odin Toolkits">
   </a>
 </p>
@@ -72,8 +72,6 @@ Plugins/
 
 ### 1.导入 Odin Inspector 插件（必须）
 
-!!! warning  
-
     Odin Toolkits 依赖 Odin Inspector 插件，请先自行导入 Odin Inspector 插件到项目。
 
 你可以从 [Unity AssetStore](https://assetstore.unity.com/packages/tools/utilities/odin-inspector-and-serializer-89041) 和 [Sirenix 官网](https://odininspector.com/) 上购买插件或者其他方式获取插件。
@@ -97,8 +95,6 @@ zeriying@gmail.com
 [Wcowin 的 MkDocs 博客](https://wcowin.work/Mkdocs-Wcowin/)
 
 [QFramework - Unity 开发框架](https://github.com/liangxiegame/QFramework)
-
-!!! tip
 
     感谢你看到这里，如果 Odin Toolkits 在你的 Unity 开发中切实提供了帮助，恳请为项目点亮一颗 ★ Star！
     

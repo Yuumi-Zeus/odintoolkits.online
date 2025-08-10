@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 关于 Odin Inspector 你需要知道的内容
 
 当你在思考购买 Odin Inspector 时，先阅读本文档，了解更多关于 Odin Inspector 的信息。

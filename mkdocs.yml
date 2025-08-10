@@ -78,6 +78,8 @@ plugins:
   - blog # 启用博客功能
   # Setup -> tags
   - tags
+  # Plugins -> meta
+  - meta
 
 extra_css:
   - extra/stylesheets/customFonts.css # 自定义字体
