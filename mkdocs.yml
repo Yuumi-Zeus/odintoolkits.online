@@ -1,7 +1,7 @@
 # --- 基础信息
 site_name: Odin Toolkits Documentation
 # 链接，设置为你希望的主页地址，如果开启了 navigation.instant 功能后，必须设置 site_url
-site_url: https://yuumixcode.github.io/odintoolkitsdocs/
+site_url: https://www.odintoolkits.cn/
 site_description: Odin Toolkits 是 Odin Inspector and Serializer 插件的第三方扩展工具集。挖掘插件用法、提供更多优雅的解决方案，优化开发流程。
 site_author: Yuumix
 copyright: Copyright &copy; 2025 Yuumix
