@@ -134,11 +134,11 @@ nav:
   - Home: index.md
   - CHANGELOG: contents/CHANGELOG.md
   - 使用手册:
-      - contents/Manuals/index.md
+      - contents/manuals.md
       - 手册一: contents/Manuals/TestOne.md
       - 手册二: contents/Manuals/TestTwo.md
   - API 文档:
-      - 脚本 API 概述: contents/ScriptingAPI/index.md
+      - 脚本 API 概述: contents/scriptingapi.md
   - 标签总览:
       - blog/tags.md
   - 开发者博客:
