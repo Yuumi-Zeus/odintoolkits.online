@@ -3,6 +3,7 @@ template: homepage.html
 hide:
   - navigation
   - toc
+comments: true
 ---
 
 # Odin Toolkits
