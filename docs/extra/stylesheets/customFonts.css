@@ -2,14 +2,6 @@
 @import url("https://static.zeoseven.com/zsft/292/main/result.css");
 
 @font-face {
-  font-family: "Maple Mono Normal";
-  src: url("../fonts/MapleMonoNormal-Regular.ttf.woff2") format("woff2");
-  font-display: swap;
-  font-variant-ligatures: none;
-  /* 禁用连字 */
-}
-
-@font-face {
   font-family: "JetBrains Mono Only English";
   src: url("../fonts/JetBrainsMono-Regular.woff2") format("woff2");
   /* 英文、数字和常用符号范围 */
@@ -18,7 +10,14 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Maple Mono Normal Only Chinese";
+  src: url("../fonts/MapleMonoNormal-Regular.ttf.woff2") format("woff2");
+  font-display: swap;
+  /* 禁用连字 */
+  font-variant-ligatures: none;
+}
+
 :root {
   --md-text-font: "JetBrains Mono Only English", "LXGW WenKai";
-  --md-code-font: "Maple Mono Normal";
 }

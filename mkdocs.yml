@@ -1,7 +1,7 @@
 # --- 基础信息
 site_name: Odin Toolkits Documentation
 # 链接，设置为你希望的主页地址，如果开启了 navigation.instant 功能后，必须设置 site_url
-site_url: https://yuumixcode.github.io/odintoolkits.online/
+site_url: https://yuumixcode.github.io/odintoolkitsdocs/
 site_description: Odin Toolkits 是 Odin Inspector and Serializer 插件的第三方扩展工具集。挖掘插件用法、提供更多优雅的解决方案，优化开发流程。
 site_author: Yuumix
 copyright: Copyright &copy; 2025 Yuumix
@@ -37,7 +37,7 @@ theme:
   # Setup -> fonts - 字体
   font:
     text: Roboto
-    code: Roboto Mono
+    code: JetBrains Mono
 
   # Setup -> language - 语言
   language: zh
@@ -70,20 +70,12 @@ theme:
     - search.share # 搜索分享
     # announcement
     - announce.dismiss
-    
+
 plugins:
   # Setup -> search
   - search # 启用搜索功能
   # Setup -> blog
   - blog # 启用博客功能
-  # Setup -> blog -> rss
-  - rss:
-      match_path: blog/posts/.*
-      date_from_meta:
-        as_creation: date
-      categories:
-        - categories
-        - tags
   # Setup -> tags
   - tags
 
@@ -140,12 +132,13 @@ nav:
   - Home: index.md
   - CHANGELOG: contents/CHANGELOG.md
   - 使用手册:
-      - contents/manuals/index.md
-      - 手册一: contents/manuals/TestOne.md
-      - 手册二: contents/manuals/TestTwo.md
+      - contents/Manuals/index.md
+      - 手册一: contents/Manuals/TestOne.md
+      - 手册二: contents/Manuals/TestTwo.md
   - API 文档:
-      - 脚本 API 概述: contents/scriptingAPI/index.md
-  - 标签:
+      - 脚本 API 概述: contents/ScriptingAPI/index.md
+  - 标签总览:
       - blog/tags.md
   - 开发者博客:
       - blog/index.md
+  - 购买 Odin Inspector 前必读: contents/OdinInformation/index.md

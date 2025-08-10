@@ -21,17 +21,20 @@ hide:
 ## 项目愿景
 
 - 成为使用 `Odin Inspector` 的开发者的必备扩展工具包。
-- 帮助开发者快速学习使用 `Odin Inspector`，发挥其更多的价值，而不是仅了解官方提供的 `Attribute`。
+- 帮助开发者快速学习使用 `Odin Inspector`，发挥其更多的价值。
+- 帮助开发者快速开发，提供更多优雅的解决方案。
 
 ## 主要模块
 
 - 多语言特性扩展，在构造函数层面直接添加多语言参数。
 
-- Odin 提供的所有 Attribute 的中文解析窗口。
+- `Odin Inspector` 提供的所有 `Attribute` 的中文解析窗口。
 
-- 文档生成工具，选择特定的类，一键生成 API 文档。
+- 文档生成工具，选择特定的类，一键生成 `API` 文档。
 
 - 模版代码生成工具，选择特定的类，一键生成模版代码。
+
+- 社区模块，收集、整理、分享 `Odin Inspector` 的使用案例。
 
 ## 项目结构
 
@@ -80,9 +83,15 @@ Plugins/
 
 ## 联系作者
 
-谷歌邮箱: zeriying@gmail.com
+zeriying@gmail.com
 
-## 赞赏
+## 项目推荐
+
+[![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
+
+[Wcowin 的 MkDocs 博客](https://wcowin.work/Mkdocs-Wcowin/)
+
+[QFramework - Unity 开发框架](https://github.com/liangxiegame/QFramework)
 
 !!! tip
 
@@ -90,4 +99,4 @@ Plugins/
     
     如果 Odin Toolkits 打包出现错误，或者代码规范不符合要求，请提 issue，或者联系我，我会尽快处理。
 
-    [![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
+    
