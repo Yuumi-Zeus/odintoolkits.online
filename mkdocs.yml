@@ -78,8 +78,6 @@ plugins:
   - blog # 启用博客功能
   # Setup -> tags
   - tags
-  # Plugins -> meta
-  - meta
 
 extra_css:
   - extra/stylesheets/customFonts.css # 自定义字体
@@ -133,6 +131,10 @@ markdown_extensions:
 nav:
   - Home: index.md
   - CHANGELOG: contents/CHANGELOG.md
+  - 使用手册:
+      - contents/MANUALS.md
+  - 脚本 API:
+      - contents/SCRIPTINGAPI.md
   - 标签总览:
       - blog/tags.md
   - 开发者博客:
