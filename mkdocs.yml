@@ -2,6 +2,7 @@
 site_name: Odin Toolkits Documentation
 # 链接，设置为你希望的主页地址，如果开启了 navigation.instant 功能后，必须设置 site_url
 site_url: https://www.odintoolkits.cn/
+use_directory_urls: true
 site_description: Odin Toolkits 是 Odin Inspector and Serializer 插件的第三方扩展工具集。挖掘插件用法、提供更多优雅的解决方案，优化开发流程。
 site_author: Yuumix
 copyright: Copyright &copy; 2025 Yuumix
@@ -70,7 +71,7 @@ theme:
     - search.share # 搜索分享
     # announcement
     - announce.dismiss
-
+    
 plugins:
   # Setup -> search
   - search # 启用搜索功能
@@ -127,14 +128,18 @@ markdown_extensions:
   - pymdownx.blocks.caption
   # tooltips 提示 ---
   - abbr
+  - toc:
+      permalink: true
 
 nav:
   - Home: index.md
   - CHANGELOG: contents/CHANGELOG.md
   - 使用手册:
-      - contents/MANUALS.md
+      - contents/Manuals/index.md
+      - 手册一: contents/Manuals/TestOne.md
+      - 手册二: contents/Manuals/TestTwo.md
   - 脚本 API:
-      - contents/SCRIPTINGAPI.md
+      - contents/ScriptingAPI/index.md
   - 标签总览:
       - blog/tags.md
   - 开发者博客:
