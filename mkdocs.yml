@@ -138,6 +138,8 @@ nav:
       - contents/Manuals/index.md
       - 手册一: contents/Manuals/TestOne.md
       - 手册二: contents/Manuals/TestTwo.md
+      - 工具:
+          - 快捷生成工具: contents/Manuals/Tools/QuickGenerateSO.md
   - 脚本 API:
       - contents/ScriptingAPI/index.md
   - 标签总览:
