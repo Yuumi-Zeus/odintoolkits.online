@@ -4,7 +4,9 @@ comments: true
 
 # 关于 Odin Inspector 你需要知道的内容
 
-当你在思考购买 Odin Inspector 时，先阅读本文档，了解更多关于 Odin Inspector 的信息。
+!!! note
+
+    当你在思考购买 Odin Inspector 时，先阅读本文档，了解更多关于 Odin Inspector 的信息。
 
 ## Odin Inspector 官网上新账号可以有一个 90 天的免费试用
 

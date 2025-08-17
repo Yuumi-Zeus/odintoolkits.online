@@ -27,15 +27,15 @@ comments: true
 
 ## 主要模块
 
-- 多语言特性扩展，在构造函数层面直接添加多语言参数。
+1. 多语言特性扩展，在构造函数层面直接添加多语言参数。
 
-- `Odin Inspector` 提供的所有 `Attribute` 的中文解析窗口。
+2. `Odin Inspector` 提供的所有 `Attribute` 的中文解析窗口。
 
-- 文档生成工具，选择特定的类，一键生成 `API` 文档。
+3. 文档生成工具，选择特定的类，一键生成 `API` 文档。
 
-- 模版代码生成工具，选择特定的类，一键生成模版代码。
+4. 模版代码生成工具，选择特定的类，一键生成模版代码。
 
-- 社区模块，收集、整理、分享 `Odin Inspector` 的使用案例。
+5. 社区模块，收集、整理、分享 `Odin Inspector` 的使用案例。
 
 ## 项目结构
 
@@ -45,17 +45,37 @@ Plugins/
 │  │  ├─ OdinToolkits/
 │  │  │  ├─ Community/
 │  │  │  │  ├─ Editor/
+│  │  │  │  │  ├─ Resources/
+│  │  │  │  │  ├─ Scripts/
 │  │  │  │  ├─ Modules/
-│  │  │  ├─ Editor/
-│  │  │  │  ├─ Core/
-│  │  │  │  ├─ Modules/
-│  │  │  │  ├─ Shared/
-│  │  │  ├─ Runtime/
-│  │  │  │  ├─ Core/
-│  │  │  │  ├─ Modules/
-│  │  │  │  ├─ Resources/
-│  │  │  │  ├─ Shared/
-│  │  │  │  ├─ YuumixEditor/
+│  │  │  │  │  ├─ ResolvedParametersOverview/
+│  │  │  ├─ Core/
+│  │  │  │  ├─ Editor/
+│  │  │  │  │  ├─ Bilingualism/
+│  │  │  │  │  ├─ Misc/
+│  │  │  │  │  ├─ Windows/
+│  │  │  │  ├─ Runtime/
+│  │  │  │  │  ├─ Bilingualism/
+│  │  │  │  │  ├─ Logger/
+│  │  │  │  │  ├─ Misc/
+│  │  │  │  │  ├─ YuumixEditor/
+│  │  │  │  │  ├─ Yuumix.cs # OdinToolkits 会自动运行的类
+│  │  │  ├─ Modules/
+│  │  │  │  ├─ AttributeOverviewPro/
+│  │  │  │  ├─ CustomAttributes/
+│  │  │  │  ├─ Editor/
+│  │  │  │  │  ├─ DirectoryTreeGen/
+│  │  │  │  │  ├─ QuickGenerateSO/
+│  │  │  │  │  ├─ TemplateCodeGen/
+│  │  │  │  ├─ ScriptDocGen/
+│  │  │  ├─ Resources/
+│  │  │  │  ├─ LogTags/
+│  │  │  │  ├─ OdinToolkitsPreferences.asset
+│  │  │  ├─ Universal/
+│  │  │  │  ├─ BilingualComment/
+│  │  │  │  ├─ Extensions/
+│  │  │  │  ├─ Singleton/
+│  │  │  │  ├─ Utilities/
 │  │  ├─ CHANGELOG.md
 ```
 
